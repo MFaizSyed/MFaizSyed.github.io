@@ -1,0 +1,184 @@
+*
+/*DEVELOPER: Mohammed Syed, IS117-001, Fall 2020 */
+/*--------------Homepage------------------*/
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #00bfff,#0086b3);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 65px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*--------------banner------------------*/
+#banner
+{
+    background-image: linear-gradient(to right, #00bfff,#0086b3);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.clap-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+.img-fluid
+{
+    padding-bottom: 10%;
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+/*--------------Feature Cards------------------*/
+#webfeatures{
+    background-color: #e4b7f7
+}
+.card-body{
+    background: #000;
+    color: #1ee3fc
+}
+.col{
+    background: #e4b7f7;
+    color: #ff5100;
+}
+
+/*--------------footer------------------*/
+.p-foot{
+    color: #999;
+    line-height:25px;
+}
+.h2-foot,.h3-foot{
+    color: #fff;
+}
+.h2-foot{
+    font-size: 18px;
+}
+.footer-top{
+    background: #111;
+    padding: 80px 0;
+}
+.segment-one h3{
+    font-family:Courgette;
+    color: #fff;
+    letter-spacing: 3px;
+    margin:10px 0;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40 px;
+    padding-top: 5%;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+    color: #fff;
+    font-size: 15px;
+}
+
+/*--------------Famous Films Page------------------*/
+
+/*--------------Famous Films Cards------------------*/
+#introfamousfilms {
+    background-color: #b7eef7;
+    padding: 30px 0px;
+    padding-top: 5px;
+}
+.famous-title {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+/*--------------Classic Films Page------------------*/
+
+#featurefilms {
+    background-color: #ff7a7a;
+}
+.row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*--------------Filmmakers Page------------------*/
+#directors {
+    background-color: beige;
+}
+
+/*--------------Film Process Page------------------*/
+#filmflow {
+    background-color: #36d0ff;
+}
+
+.contact-us {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width:0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
